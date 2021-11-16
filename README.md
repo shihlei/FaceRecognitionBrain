@@ -8,4 +8,6 @@ In the project directory, you can run:
 
 ### `npm start`
 ### `Test it!!`
-*1111
+1. Register 
+2. upload any image with face on it (https://attach.setn.com/newsimages/2019/11/10/2234954-PH.jpg)
+3. see the result!
