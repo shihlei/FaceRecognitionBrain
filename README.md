@@ -8,6 +8,6 @@ In the project directory, you can run:
 
 ### `npm start`
 ### `Test it!!`
-1. Register 
+1. Register (Use the web app link on Github page that I deployed)
 2. upload any image with face on it (https://attach.setn.com/newsimages/2019/11/10/2234954-PH.jpg)
 3. see the result!
