@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 • Developed a responsive web app that people can sign in to enter an image, and the website will detect faces in the image. </br>
-• Created website that is using JavaScript and react, and the front-end used image recognition API to detect photo.
+• Created website that is using JavaScript and react, and the front-end used image recognition API to detect photo.</br>
 • Build a server in Node.js and Express that is working with PostgreSQL, so that there’s memory for user to register
 and back-end will remember.
 
