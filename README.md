@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 • Developed a responsive web app that people can sign in to enter an image, and the website will detect faces in the image.
 • Created website that is using JavaScript and react, and the front-end used image recognition API to detect photo.
 • Build a server in Node.js and Express that is working with PostgreSQL, so that there’s memory for user to register
