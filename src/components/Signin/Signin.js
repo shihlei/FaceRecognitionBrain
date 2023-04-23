@@ -21,7 +21,7 @@ class Signin extends React.Component {
 	//event, use state to fetch
 	onSubmitSignIn = () => {
 		//send info to server
-		fetch('https://lit-depths-96413.herokuapp.com/signin', {
+		fetch('https://facerecognitionappbackend-api.onrender.com/signin', {
 			method: 'post',
 			//header is object
 			headers: {'Content-type': 'application/json'},

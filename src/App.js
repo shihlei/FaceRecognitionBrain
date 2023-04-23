@@ -83,7 +83,7 @@ class App extends Component {
     //當imageUrl拿到input後會update
     //pass imageUrl to FaceRecognition
     this.setState({imageUrl:this.state.input});
-      fetch('https://lit-depths-96413.herokuapp.com/imageurl', {//用來在前端隱藏api key，移到後端做
+      fetch('https://facerecognitionappbackend-api.onrender.com/imageurl', {//用來在前端隱藏api key，移到後端做
         method: 'post',
         headers: {'Content-type': 'application/json'},
         body: JSON.stringify({
@@ -93,7 +93,7 @@ class App extends Component {
       .then(response => response.json())//因為是fetch，所以要做response.json()
       .then(response => {
         if(response){
-          fetch('https://lit-depths-96413.herokuapp.com/image', {
+          fetch('https://facerecognitionappbackend-api.onrender.com/image', {
             method: 'put',
             //header is object
             headers: {'Content-type': 'application/json'},
