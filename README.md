@@ -1,20 +1,22 @@
-# Getting Started with Create React App
+# Face Detection Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive React app where users sign in, paste an image URL, and the app detects faces in the image.  
+Front end is built with Create React App. Back end uses Node.js with Express and PostgreSQL.
 
-• Developed a responsive web app that people can sign in to enter an image, and the website will detect faces in the image. </br>
-• Created website that is using JavaScript and react, and the front-end used image recognition API to detect photo.</br>
-• Build a server in Node.js and Express that is working with PostgreSQL, so that there’s memory for user to register
-and back-end will remember.
+## 🚀 Live Demo
+[Open the app](https://facerecognitionapp-y1sm.onrender.com/)
 
 
-## Available Scripts
+## ✨ Features
+* Register and sign in
+* Paste an image URL with faces to detect
+* Bounding boxes drawn around detected faces
+* Entry count saved per user
+* Responsive layout for mobile and desktop
+  
 
-In the project directory, you can run:
-
-### `npm start`
-
-## Use URL to test it!
-1. Register (Use the web app link on Github page that I deployed)
-2. upload any image with face on it (https://attach.setn.com/newsimages/2019/11/10/2234954-PH.jpg)
-3. see the result!
+## 🧪 Quick Try
+1. Open the live demo or run locally.
+2. Register or sign in.
+3. Paste an image URL that includes a face, for example: https://attach.setn.com/newsimages/2019/11/10/2234954-PH.jpg
+4. Submit and see the detection result.
