@@ -1,4 +1,4 @@
-# Face Detection Web App
+# Face Recognition Web App
 
 A responsive React app where users sign in, paste an image URL, and the app detects faces in the image.  
 Front end is built with Create React App. Back end uses Node.js with Express and PostgreSQL.
