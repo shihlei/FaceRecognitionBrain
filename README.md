@@ -30,15 +30,20 @@ This is the frontend repository. See the backend is here: [shihlei/FaceRecogniti
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone https://github.com/yourusername/FaceRecognitionBrain.git
    ```
 
-2. **Install dependencies**
+2. **Navigate to the project directory**
+   ```bash
+   cd FaceRecognitionBrain
+   ```
+   
+3. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Start the development server**
+4. **Start the development server**
    ```bash
    npm start
    ```
